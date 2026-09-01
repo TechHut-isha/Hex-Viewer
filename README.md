@@ -265,29 +265,6 @@ I prioritized the core large-file requirements:
 
 ---
 
-# Known Limitation
-
-Click-drag range selection was not completed within the available implementation time.
-
-The current implementation supports byte hover and click selection with synchronized HEX/ASCII highlighting and Inspector updates.
-
-Range selection would be the next feature to implement.
-
----
-
-# Future Improvements
-
-With additional development time, I would add:
-
-* Click-drag range selection
-* More comprehensive automated tests
-* Inspector reads that seamlessly cross chunk boundaries
-* Additional cache and end-of-file edge-case testing
-* Performance profiling during extended large-file navigation
-* Keyboard navigation and accessibility improvements
-
----
-
 # Testing
 
 The viewer was manually tested with:
